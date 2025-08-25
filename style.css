@@ -27,6 +27,9 @@ p{
 .btn:hover{
   background-color: black;
 }
+li{
+  color: var(--secondarycolor);
+}
 i{
   background-color: var(--primarycolor);
   color: white;
