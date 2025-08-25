@@ -1,0 +1,36 @@
+:root{
+   --primarycolor: #be9c79;
+   --secondarycolor:#666666;
+   --tertiaryColor: black;
+  --ffPrimary: "Nunito Sans", serif;
+  --ffSecondary: "Merienda", serif;
+}
+body{
+    font-family: var(--ffPrimary);
+}
+h1,h2{
+    font-family: var(--ffSecondary);
+}
+p{
+    color:var(--tertiaryColor)
+}
+.heroSection {
+  background: linear-gradient(90deg, white, transparent 70%), url(./assets/images/home-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 14rem 0rem;
+}
+.btn{
+  background-color: var(--primarycolor);
+}
+.btn:hover{
+  background-color: black;
+}
+i{
+  background-color: var(--primarycolor);
+  color: white;
+}
+span{
+color: var(--primarycolor);
+}
